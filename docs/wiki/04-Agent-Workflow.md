@@ -5,7 +5,7 @@
 ## 0. 전제
 
 - 코딩 에이전트는 **로컬 GJC (Gajae Code)** + 보조로 ChatGPT/Claude 웹.
-- "Agent skill" = 반복되는 작업 절차를 MD로 정리한 것. → repo의 [`.gjc/skills/murun-feature/SKILL.md`](https://github.com/boostcampwm-snu-2026-1/murun-peterabcd/blob/main/.gjc/skills/murun-feature/SKILL.md) 참고.
+- "Agent skill" = 반복되는 작업 절차를 MD로 정리한 것. → repo의 [`.gjc/skills/murun-feature/SKILL.md`](https://github.com/peterabcd/murun-peterabcd/blob/main/.gjc/skills/murun-feature/SKILL.md) 참고.
 - Wiki는 사람을 위한 진실의 원천, `.gjc/`는 Agent에게 주는 컨텍스트.
 
 ## 1. 작업 단위 쪼개기 기준

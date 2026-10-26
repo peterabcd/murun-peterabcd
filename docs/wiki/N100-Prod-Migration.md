@@ -236,7 +236,7 @@ sudo tar czf ~/murun-backup-$(date +%Y%m%d).tar.gz \
 cd ~/murun-peterabcd/deploy
 
 # 직전 태그 확인
-docker images ghcr.io/boostcampwm-snu-2026-1/murun-peterabcd --format '{{.Tag}}\t{{.CreatedAt}}'
+docker images ghcr.io/peterabcd/murun-peterabcd --format '{{.Tag}}\t{{.CreatedAt}}'
 
 # 이전 prod-<sha> 로 되돌리기
 IMAGE_TAG=prod-<previous-sha> MURUN_ENV_FILE=.env.prod \

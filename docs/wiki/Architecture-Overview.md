@@ -110,7 +110,7 @@ erDiagram
 - 페이스(`pace`)는 저장 안 함 — `distanceKm + durationSec` 둘 다 있을 때 derived. (`lib/pace.ts`)
 - 사진은 파일 경로(`groupPhotoPath`)만 저장 — 원본은 `uploads/` 볼륨.
 
-스키마 원본: [`prisma/schema.prisma`](https://github.com/boostcampwm-snu-2026-1/murun-peterabcd/blob/main/prisma/schema.prisma).
+스키마 원본: [`prisma/schema.prisma`](https://github.com/peterabcd/murun-peterabcd/blob/main/prisma/schema.prisma).
 권한 매트릭스: [`03-Screen-Flow §5`](03-Screen-Flow#5-권한-매트릭스).
 
 ## 3. 모듈 레이어
