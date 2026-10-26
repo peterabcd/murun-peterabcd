@@ -90,4 +90,4 @@
 | 가정 회선 다운/정전 | 서비스 중단 | UPS는 추후. 우선 백업(주 1회 cron으로 SQLite 파일·uploads dir 외부 복사) |
 | 단체사진 원본 크기 큼 (모바일 5~10MB) | 업로드 느림 | 클라이언트 리사이즈 X, 대신 업로드 상한 15MB + 진행률 UI. `next/image`가 서빙 시 webp 변환. |
 | 호스트 승인 대기 중 부원이 로그인해도 못 씀 | 운영 부담 | "승인 대기" 안내 페이지로 명확히 → 관리자가 단톡방 보고 1분 내 승인 |
-| Agent가 권한 체크를 빠뜨림 | 보안 사고 | Server Action 첫 줄 인증·권한 체크를 [`SKILL.md`](https://github.com/boostcampwm-snu-2026-1/murun-peterabcd/blob/main/.gjc/skills/murun-feature/SKILL.md)에 명시, [`06-Checkpoints`](06-Checkpoints)로 사람 검증 |
+| Agent가 권한 체크를 빠뜨림 | 보안 사고 | Server Action 첫 줄 인증·권한 체크를 [`SKILL.md`](https://github.com/peterabcd/murun-peterabcd/blob/main/.gjc/skills/murun-feature/SKILL.md)에 명시, [`06-Checkpoints`](06-Checkpoints)로 사람 검증 |

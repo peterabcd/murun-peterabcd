@@ -17,7 +17,7 @@ GitHub Actions 가 `main` push → prod 배포한다. 첫 셋업 한 번만 호�
 ```bash
 # 1) repo clone (한 번만; deploy workflow 의 git sync 경로와 일치해야 함)
 cd ~
-git clone https://github.com/boostcampwm-snu-2026-1/murun-peterabcd.git
+git clone https://github.com/peterabcd/murun-peterabcd.git
 cd murun-peterabcd
 
 # main 을 default 로 둠 (workflow 가 main ref 기준으로 fetch/checkout 한다)
@@ -151,7 +151,7 @@ compose 환경에서는 `UPLOADS_DIR`가 `/app/uploads`로 잡혀 있으므로, 
 
 ```bash
 # 직전 이미지 태그 확인
-docker images ghcr.io/boostcampwm-snu-2026-1/murun-peterabcd --format '{{.Tag}}\t{{.CreatedAt}}'
+docker images ghcr.io/peterabcd/murun-peterabcd --format '{{.Tag}}\t{{.CreatedAt}}'
 
 # 특정 태그로 되돌리기 (예: 직전 prod 빌드)
 IMAGE_TAG=prod-<sha> MURUN_ENV_FILE=.env.prod docker compose -p murun-prod --env-file .env.prod up -d

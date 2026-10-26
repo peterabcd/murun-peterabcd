@@ -220,7 +220,7 @@ model Participation {
 | 다른 사람 참여 행 수정 | ❌ | ❌ | 보류 |
 | 멤버 승인/거절 | ❌ | ❌ | ✅ |
 
-이 표가 **Server Action 권한 체크의 진실의 원천**. [`SKILL.md`](https://github.com/boostcampwm-snu-2026-1/murun-peterabcd/blob/main/.gjc/skills/murun-feature/SKILL.md)에서 참조.
+이 표가 **Server Action 권한 체크의 진실의 원천**. [`SKILL.md`](https://github.com/peterabcd/murun-peterabcd/blob/main/.gjc/skills/murun-feature/SKILL.md)에서 참조.
 
 ## 6. URL 공유 / OG
 

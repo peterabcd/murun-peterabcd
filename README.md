@@ -17,7 +17,7 @@
 
 ## 2. 저장소 정보
 
-- 저장소: [`boostcampwm-snu-2026-1/murun-peterabcd`](https://github.com/boostcampwm-snu-2026-1/murun-peterabcd)
+- 저장소: [`peterabcd/murun-peterabcd`](https://github.com/peterabcd/murun-peterabcd)
 - 작성자: 이현민 (peterabcd)
 - 기간: 2026-05-25 ~ 2026-06-14 (3주)
 
@@ -41,8 +41,8 @@ PR 규칙:
 
 | 항목 | 위치 |
 |------|------|
-| 기획/설계 문서 | [GitHub Wiki](https://github.com/boostcampwm-snu-2026-1/murun-peterabcd/wiki) (소스: [`docs/wiki/`](./docs/wiki)) |
-| Task 관리 | [GitHub Issues](https://github.com/boostcampwm-snu-2026-1/murun-peterabcd/issues) |
+| 기획/설계 문서 | [GitHub Wiki](https://github.com/peterabcd/murun-peterabcd/wiki) (소스: [`docs/wiki/`](./docs/wiki)) |
+| Task 관리 | [GitHub Issues](https://github.com/peterabcd/murun-peterabcd/issues) |
 | 작업 단위 | feature 단위 (vertical slice) — [`docs/wiki/04-Agent-Workflow.md`](./docs/wiki/04-Agent-Workflow.md) 참고 |
 | Agent skill | [`.gjc/skills/murun-feature/SKILL.md`](./.gjc/skills/murun-feature/SKILL.md) |
 | Week 3 워크플로우 리포트 | [`docs/wiki/09-Agent-Workflow-Report.md`](./docs/wiki/09-Agent-Workflow-Report.md) |
