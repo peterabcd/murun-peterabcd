@@ -17,7 +17,8 @@ env:
 jobs:
   check:
     name: typecheck + lint + build
-    runs-on: ubuntu-latest
+    # ubuntu-latest(26.04) 는 Playwright 1.60 의 chromium --with-deps 미지원 → LTS 고정
+    runs-on: ubuntu-24.04
     timeout-minutes: 20
 
     steps:
